@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:todo_pp/layout/cubit/cubit.dart';
-import 'package:todo_pp/modules/splash-screen.dart';
+import 'package:todo_app/shared/component/bloc-observer.dart';
 
-import 'package:todo_pp/shared/component/bloc-observer.dart';
+import 'layout/cubit/cubit.dart';
+import 'modules/splash-screen.dart';
 
 void main() {
   BlocOverrides.runZoned(
